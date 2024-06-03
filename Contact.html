@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div id="div1">
+            <table id="table1">
+                <th id="im"><img src="image.jpg" height="110"></th>
+                <th>
+                    <h2 style="text-align: center; color: white;"> MY WEBSITE</h2>
+                </th>
+                <th>
+                    <div class="search-bar">
+                        <form action="#">
+                            <input type="text" placeholder="Search">
+                            <button type="submit">Search</button>
+                        </form>
+                    </div>
+                </th>
+            </table>
+        </div>
+        <div id="div2">
+            <table id="table2">
+                <th><a href="index.html">HOME</a></th>
+                <th><a href="Form.html">FORM</a></th>
+                <th><a href="Table.html">TABLE</a></th>
+                <th><a href="Newsportal.html">NEWSPORTAL</a></th>
+                <th><a href="Image.html">IMAGE</a></th>
+                <th><a href="Contact.html">CONTACT</a></th>
+            </table>
+        </div>
+        <div class="contact-container">
+            <form action="submit_form.php" method="post" class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+            <div class="contact-info">
+                <h2>Contact Information</h2>
+                <p>Md. Mainur Rahman</p>
+                <p>Email: mainur.cse8.bu@gmail.com</p>
+                <p>https://www.facebook.com/zulfiqar.nayem</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
